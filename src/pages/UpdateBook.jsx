@@ -86,7 +86,7 @@ const oldBook = books.filter(
     <>
       <section className='heading'>
         <h1>
-          <FaUser /> Update
+          Update
         </h1>
         <p>Please enter info</p>
       </section>

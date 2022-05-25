@@ -31,7 +31,7 @@ function Register() {
 
     if (isSuccess || user) {
       toast.error("Registration Successfull... Now Login to continue")
-      navigate('login')
+      navigate('/login')
     }
 
     dispatch(reset())

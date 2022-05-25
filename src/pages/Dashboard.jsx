@@ -54,8 +54,8 @@ function Dashboard() {
           Add Book
         </button>
 
-        <table class="table border shadow">
-          <thead class="thead-dark">
+        <table className="table border shadow">
+          <thead className="thead-dark">
             <tr>
               <th scope="col">#</th>
               <th scope="col">Title</th>
@@ -75,7 +75,7 @@ function Dashboard() {
                 <td>{book.category}</td>
                 <td>
                   <Link
-                    class="btn btn-danger btn-sm me-2"
+                    className="btn btn-danger btn-sm me-2"
                     onClick={() => dispatch(deleteBook(book.id))}
                     to="/"
                   >
@@ -83,7 +83,7 @@ function Dashboard() {
                   </Link>
 
                   <Link
-                    class="btn btn-outline-primary btn-sm me-1"
+                    className="btn btn-outline-primary btn-sm me-1"
                     to={`/updatebook/${book.id}`}
                   >
                     Edit

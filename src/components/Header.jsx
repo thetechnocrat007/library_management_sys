@@ -15,7 +15,7 @@ function Header() {
   }
 
   return (
-    <header className='header'>
+    <header className='header black'>
       <div className='logo'>
         <Link to='/'>LabManager</Link>
       </div>

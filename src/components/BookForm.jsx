@@ -35,7 +35,7 @@ const { title, author,publication,category } = formData;
   }
 
   return (
-    <section className='form'>
+    <section className='form black'>
       <form onSubmit={onSubmit}>
         <div className='form-group'>
           <label htmlFor='text'>Book</label>
